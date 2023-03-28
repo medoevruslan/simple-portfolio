@@ -45,6 +45,7 @@ body::before {
   display: block;
   inset: 0;
   background: url(../../public/img/bg_main_4.png) 55vw no-repeat;
+  height: 100vh;
   background-size: contain;
 }
 
