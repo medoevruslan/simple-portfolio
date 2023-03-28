@@ -19,7 +19,7 @@ const FadeAnimation: FC<FadeProps> = ({ tag = 'div', className = '', children, d
     useEffect(() => {
         const timer = setTimeout(() => setIsMove({ fade: 'moveup' }), delay);
         return () => clearTimeout(timer);
-    }, [])
+    }, [delay])
 
     return <FadedElement tag={tag} className={className} dataMove={isMove.fade}>{children}</FadedElement>
 }

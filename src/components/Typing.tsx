@@ -13,7 +13,7 @@ const Typing: FC<TypingProps> = ({ text, speed }) => {
         const typeSpeed = Math.floor((Math.random() * (speed - speed / 5)) + speed / 5);
         const timeout = setTimeout(() => setTextToType(text.slice(0, textToType.length + 1)), typeSpeed);
         return () => clearTimeout(timeout);
-    }, [textToType]);
+    }, [text, speed, textToType]);
 
     return (
         <>

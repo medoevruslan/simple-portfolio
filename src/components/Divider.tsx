@@ -10,7 +10,7 @@ const Divider: FC<DividerProps> = ({ delay }) => {
 
     useEffect(() => {
         setTimeout(() => setIsVisible(true), delay)
-    }, [isVisible])
+    }, [delay, isVisible])
 
     return isVisible ? <div className="divider"></div> : null;
 }

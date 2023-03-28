@@ -34,9 +34,9 @@ const About: FC = () => {
             <FadeAnimation className="recap" delay={150}>
                 <h3 className="title">Languages :</h3>
                 <ul className="recap__list li__bullet-off">
-                    <li>&lt;Ukrainian className="native" /&gt;</li>
-                    <li>&lt;Russian className="native" /&gt;</li>
-                    <li>&lt;English className="pre-intermediate" /&gt;</li>
+                    <li>&lt;Ukrainian className=&quot;native&quot; /&gt;</li>
+                    <li>&lt;Russian className=&quot;native&quot; /&gt;</li>
+                    <li>&lt;English className=&quot;pre-intermediate&quot; /&gt;</li>
                 </ul>
             </FadeAnimation>
 

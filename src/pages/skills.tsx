@@ -43,9 +43,9 @@ const Skills: FC = () => (
             <FadeAnimation className="recap" delay={170}>
                 <h3 className="title active">github page:</h3>
                 <a href="https://github.com/MedoevRuslan">
-                    <span>&lt;a href="</span>
+                    <span>&lt;a href=&quot;</span>
                     <span className="href">https://github.com/MedoevRuslan</span>
-                    <span>"&gt;&lt;/a&gt;</span>
+                    <span>&quot;&gt;&lt;/a&gt;</span>
                 </a>
             </FadeAnimation>
         </div>

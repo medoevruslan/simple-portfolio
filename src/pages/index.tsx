@@ -11,7 +11,7 @@ const Home: FC = () => {
       </Head>
       <div className='hero__content home' >
         <FadeAnimation className="title" delay={100}>
-          <h2>Hi, I'm Ruslan.</h2>
+          <h2>Hi, I&apos;m Ruslan.</h2>
         </FadeAnimation>
         <FadeAnimation className="title title-main">
           <h1>Junior Fullstack Developer.</h1>

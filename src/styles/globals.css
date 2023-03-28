@@ -80,6 +80,10 @@ body::before {
   z-index: 99;
 }
 
+.toggle-pressed {
+  background: #eeeeee99;
+}
+
 .nav-mobile-toggle > span {
   width: 40%;
   height: 2px;
