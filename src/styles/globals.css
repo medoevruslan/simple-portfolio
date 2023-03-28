@@ -40,13 +40,12 @@ body {
 }
 
 body::before {
-  position: absolute;
+  position: fixed;
   content: '';
   display: block;
   inset: 0;
   background: url(../../public/img/bg_main_4.png) 55vw no-repeat;
   background-size: contain;
-  background-attachment: fixed;
 }
 
 #__next {
