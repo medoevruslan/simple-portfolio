@@ -14,7 +14,7 @@ const Home: FC = () => {
           <h2>Hi, I&apos;m Ruslan.</h2>
         </FadeAnimation>
         <FadeAnimation className="title title-main">
-          <h1>Junior Fullstack Developer.</h1>
+          <h1>Fullstack Developer.</h1>
         </FadeAnimation>
         <FadeAnimation className="title" delay={130}>
           <h3 className="title title-subtitle">Understanding the real value of life time.</h3>
